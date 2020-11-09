@@ -1,0 +1,11 @@
+.box {
+	background-color: royalblue;
+	height: 200px;
+	width: 200px;
+}
+
+.ball {
+	background-color: lightblue;
+	height: 100px;
+	width: 100px;
+}

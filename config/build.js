@@ -20,8 +20,10 @@ function build(cb) {
 		.pipe(dest('dist'));
 	
 	chalkLog('压缩完毕！', 'blueBright.bold');
-
-	cb()
+	
+	if (cb !== undefined) {
+		cb()
+	}
 }
 
 module.exports = build

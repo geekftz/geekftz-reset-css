@@ -1,0 +1,48 @@
+/*
+* 字体通用样式
+* author: hackftz
+* date: 2020-11-09
+*/
+
+/* 字体大小 */
+.fs-12 {
+	font-size: 12px;
+}
+
+.fs-14 {
+	font-size: 14px;
+}
+
+.fs-16 {
+	font-size: 16px;
+}
+
+.fs-18 {
+	font-size: 18px;
+}
+
+.fs-24 {
+	font-size: 24px;
+}
+
+.fs-30 {
+	font-size: 30px;
+}
+
+/* 字体样式 */
+.fs-nor {
+	font-style: normal;
+}
+
+.fs-ita {
+	font-style: italic;
+}
+
+/* 字体粗细 */
+.fw-l {
+	font-weight: lighter;
+}
+
+.fw-b {
+	font-weight: bold;
+}

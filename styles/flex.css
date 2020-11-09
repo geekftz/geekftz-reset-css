@@ -1,0 +1,12 @@
+/*
+* flex布局通用样式
+* author: hackftz
+* date: 2020-11-09
+*/
+
+/* 居中 */
+.flex-ct {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

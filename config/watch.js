@@ -17,12 +17,13 @@ function watch() {
 		const path = e.path.slice(start)
 		chalkLog(path + ' ' + e.event, 'redBright.bold')
 
-		if (e.event !== 'change') { // 非文件改动，则先清理dist文件下所有css文件
-			clean()
-		}
-
+		// if (e.event !== 'change') { // 非文件改动，则先清理dist文件下所有css文件
+		// 	clean()
+		// }
+		clean()
 		build()
 	});
+	
 }
 
 module.exports = watch

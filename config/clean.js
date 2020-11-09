@@ -14,7 +14,9 @@ function clean(cb) {
 	})
 		.pipe(gulpClean())
 
-	cb()
+	if (cb !== undefined) {
+		cb()
+	}
 }
 
 module.exports = clean
