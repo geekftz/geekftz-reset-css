@@ -4,7 +4,7 @@
  * date: 2020-11-09
  */
 
-const { src, dest, task }  = require('gulp');
+const { src, dest }  = require('gulp');
 const rename = require("gulp-rename");
 const cleanCSS = require('gulp-clean-css');
 const chalkLog = require('../utils/chalkLog');
@@ -20,6 +20,7 @@ function build(cb) {
 		.pipe(dest('dist'));
 	
 	chalkLog('压缩完毕！', 'blueBright.bold');
+
 	cb()
 }
 
