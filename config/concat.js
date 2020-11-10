@@ -1,3 +1,9 @@
+/***
+ * 用于合并文件产出
+ * author: hackftz
+ * date: 2020-11-09
+ */
+
 const { src, dest }  = require('gulp');
 const gulpConcat = require('gulp-concat');
 const cleanCSS = require('gulp-clean-css');
