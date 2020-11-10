@@ -4,9 +4,7 @@
 * date: 2020-11-09
 */
 
-/*
-* flex box属性
-*/
+/** flex box属性 **/
 
 /* 居中 */
 .fx {
@@ -114,9 +112,7 @@
 	align-content: stretch;
 }
 
-/*
-* flex item属性
-*/
+/** flex item属性 **/
 
 /* flex-grow */
 .fx-fg-1 {
@@ -136,5 +132,41 @@
 }
 
 /* flex-shrink */
+.fx-fs-1 {
+	flex-shrink: 1;
+}
 
+.fx-fs-0 {
+	flex-shrink: 0;
+}
+
+/* flex-basis */
+.fx-fb-a {
+	flex-basis: auto;
+}
+
+/* align-self */
+.fx-as-a {
+	align-self: auto;
+}
+
+.fx-as-fs {
+	align-self: flex-start ;
+}
+
+.fx-as-fe {
+	align-self: flex-end;
+}
+
+.fx-as-c {
+	align-self: center;
+}
+
+.fx-as-b {
+	align-self: baseline;
+}
+
+.fx-as-s {
+	align-self: stretch;
+}
 

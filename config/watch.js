@@ -8,6 +8,7 @@ const build = require('./build');
 const chalkLog = require('../utils/chalkLog');
 const gulpWatch = require('gulp-watch');
 const clean = require('./clean');
+const concat = require('./concat');
 
 
 function watch() {
@@ -19,6 +20,7 @@ function watch() {
 
 		clean()
 		build()
+		concat()
 	});
 }
 

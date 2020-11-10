@@ -8,7 +8,7 @@ function concat(cb) {
 	chalkLog('开始合并文件...', 'greenBright.bold');
 
 	src(['styles/*.css', '!styles/*.min.css']) // 过滤 *.min.css
-		.pipe(gulpConcat('all.min.css'))
+		.pipe(gulpConcat('reset.min.css'))
 		.pipe(cleanCSS())
 		.pipe(dest('dist'));
 	

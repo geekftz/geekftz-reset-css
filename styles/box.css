@@ -62,9 +62,7 @@
 	width: 64px;
 }
 
-/* 
-* margin 
-*/
+/** margin **/
 
 /* mg-8 */
 .mg-8 {
@@ -150,9 +148,7 @@
 	margin-right: 24px;
 }
 
-/*
-* padding
-*/
+/** padding **/
 
 .pd-8 {
 	padding: 8px;
