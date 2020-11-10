@@ -9,9 +9,6 @@ function concat(cb) {
 
 	src(['styles/*.css', '!styles/*.min.css']) // 过滤 *.min.css
 		.pipe(gulpConcat('all.min.css'))
-		// .pipe(rename({
-		// 	suffix: '.min'
-		// }))
 		.pipe(cleanCSS())
 		.pipe(dest('dist'));
 	
